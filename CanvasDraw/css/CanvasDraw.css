@@ -1,0 +1,57 @@
+canvas {
+    position:relative;
+    border:2px solid;
+}
+
+div {
+    position: relative;
+}
+
+div.drawingboard {
+    display: inline-block;
+    height: 400px;
+    width: 400px;
+}
+
+div.colorpicker {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+div.colorpicker .colorswatch {
+    display: inline-block;
+    height: 10px;
+    width: 10px;
+}
+
+div.colorpicker .colorswatch .red {
+    height: 100%;
+    width: 100%;
+    background:red;
+    border:2px solid;
+}
+
+div.colorpicker .colorswatch .black {
+    height: 100%;
+    width: 100%;
+    background:black;
+    border:2px solid;
+}
+
+div.colorpicker .colorswatch .white {
+    height: 100%;
+    width: 100%;
+    background: white;
+    border:2px solid;
+}
+
+div.buffer {
+}
+
+textarea {
+    width: 100%;
+}
+
+input {
+    float: right;
+}

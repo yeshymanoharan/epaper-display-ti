@@ -1,0 +1,44 @@
+<html>
+    <head>
+        <script src="js/BaseConverter.js"></script>
+        <script src="js/CanvasDraw.js"></script>
+        <link rel="stylesheet" href="css/CanvasDraw.css"></link>
+    </head> 
+
+    <body onload="init()">
+        <div class="drawingboard">
+            <canvas id="can" width="400" height="300"></canvas>
+            <div class="colorpicker">
+                Select Color:
+                <div class="colorswatch">
+                    <div class="red" id="red" onclick="color(this)"></div>
+                </div>
+                <div class="colorswatch">
+                    <div class="black" id="black" onclick="color(this)"></div>
+                </div>
+                <div class="colorswatch">
+                    <div class="white" id="white" onclick="color(this)"></div>
+                </div>
+                <input type="button" value="save" id="btn" size="30" onclick="save()">
+                <input type="button" value="clear" id="clr" size="23" onclick="erase()">
+            </div>
+        </div>
+        
+
+        <div class="buffer">
+            <div>
+                <p> RED BUFFER: </p>
+            </div>
+            <textarea id="redBuffer">
+            </textarea>
+        </div>
+
+        <div class="buffer">
+            <div>
+                <p> BLACK BUFFER: </p>
+            </div>
+            <textarea id="blackBuffer">
+            </textarea>
+        </div>
+    </body>
+</html>
