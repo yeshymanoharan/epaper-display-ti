@@ -1,3 +1,2 @@
-# xtfg256
-#### BEG FOR CHANGE
-#### NOTHING IS IMBOTTABLE
+# epaper-display-ti
+#### code for running epaper display code with TI-Tiva board.
